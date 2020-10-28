@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yVV-d3-SKX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TabViewController" customModule="Custom_Tab_Bar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLO-6j-Hxm">
+                                <rect key="frame" x="16" y="826" width="382" height="70"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Csj-Hu-ec8">
+                                        <rect key="frame" x="0.0" y="10" width="382" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Zz-q6-dlh">
+                                                <rect key="frame" x="0.0" y="0.0" width="120.5" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Yr9-jw-Fg6">
+                                                        <rect key="frame" x="35.5" y="-0.5" width="50" height="22"/>
+                                                        <color key="tintColor" name="ImageColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="6QK-oB-Ja7"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHt-X7-zNG">
+                                                        <rect key="frame" x="40" y="27.5" width="41" height="22.5"/>
+                                                        <color key="tintColor" white="0.2614069836014084" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="q9z-XU-WhZ">
+                                                <rect key="frame" x="130.5" y="0.0" width="121" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="I9z-EV-kY7">
+                                                        <rect key="frame" x="35.5" y="1" width="50" height="20.5"/>
+                                                        <color key="tintColor" name="ImageColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="HuV-mr-2v9"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP1-jB-RPW">
+                                                        <rect key="frame" x="36.5" y="27.5" width="48" height="22.5"/>
+                                                        <color key="tintColor" white="0.26140698359999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kRz-Oi-IZA">
+                                                <rect key="frame" x="261.5" y="0.0" width="120.5" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Luu-XY-Kvh">
+                                                        <rect key="frame" x="35" y="1.5" width="50" height="20"/>
+                                                        <color key="tintColor" name="ImageColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="50" id="49b-eW-5s8"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aS-ub-tdE">
+                                                        <rect key="frame" x="38" y="27.5" width="44" height="22.5"/>
+                                                        <color key="tintColor" white="0.26140698359999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Csj-Hu-ec8" firstAttribute="top" secondItem="kLO-6j-Hxm" secondAttribute="top" constant="10" id="9Gk-cY-u5L"/>
+                                    <constraint firstAttribute="bottom" secondItem="Csj-Hu-ec8" secondAttribute="bottom" constant="10" id="Lch-yn-NFM"/>
+                                    <constraint firstAttribute="height" constant="70" id="Ma0-V4-mui"/>
+                                    <constraint firstItem="Csj-Hu-ec8" firstAttribute="leading" secondItem="kLO-6j-Hxm" secondAttribute="leading" id="c1k-5F-Jla"/>
+                                    <constraint firstAttribute="trailing" secondItem="Csj-Hu-ec8" secondAttribute="trailing" id="ezV-Ck-Shz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="kLO-6j-Hxm" secondAttribute="bottom" id="7yP-ou-rw4"/>
+                            <constraint firstItem="kLO-6j-Hxm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Iqa-LG-zF9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kLO-6j-Hxm" secondAttribute="trailing" constant="16" id="iHw-uJ-TfE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EOq-1w-gDy"/>
+                    <connections>
+                        <outlet property="homeImage" destination="Yr9-jw-Fg6" id="rk6-Yd-DSl"/>
+                        <outlet property="homeLabel" destination="tHt-X7-zNG" id="br7-Tf-9qN"/>
+                        <outlet property="homeView" destination="9Zz-q6-dlh" id="baO-ZV-aNz"/>
+                        <outlet property="profileImage" destination="Luu-XY-Kvh" id="QaA-O7-RJT"/>
+                        <outlet property="profileLabel" destination="1aS-ub-tdE" id="wLj-eM-izQ"/>
+                        <outlet property="profileView" destination="kRz-Oi-IZA" id="u0g-DY-OEl"/>
+                        <outlet property="searchImage" destination="I9z-EV-kY7" id="XmF-yk-iDH"/>
+                        <outlet property="searchLabel" destination="cP1-jB-RPW" id="1y4-rc-c1N"/>
+                        <outlet property="searchView" destination="q9z-XU-WhZ" id="N5N-bv-NRX"/>
+                        <outlet property="tabView" destination="kLO-6j-Hxm" id="aj0-Cw-0Ac"/>
+                        <outlet property="tabViewBottom" destination="7yP-ou-rw4" id="o3k-gI-0wH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RC2-B6-dwU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yVV-d3-SKX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5WJ-SE-twY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cKN-XM-2wb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3f9-Pn-XJP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="magnifyingglass" catalog="system" width="64" height="56"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+        <namedColor name="ImageColor">
+            <color red="0.40034131686818036" green="0.39800013957655361" blue="0.40268249415980717" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
